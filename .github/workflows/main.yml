@@ -15,7 +15,7 @@ jobs:
           npm install
           npm run build
         env:
-          REACT_APP_OMDB_KEY: ${{ secret.REACT_APP_OMDB_KEY }}
+          REACT_APP_OMDB_KEY: ${{ secrets.REACT_APP_OMDB_KEY }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
