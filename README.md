@@ -22,5 +22,5 @@ A web in which allows users to seach OMDB movies
 
 Extras
 - Save nomination lists if the user leaves the page
-- Click on the movie title will give you the details of the movie
+- Click on the movie title will give you the details of the movie (Scroll down the page)
 ```
