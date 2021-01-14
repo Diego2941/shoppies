@@ -18,7 +18,7 @@ const Results = () => {
 
     return (
         <section className="results">
-            <h2> Results for "{title}" </h2>
+            <h2> Results for {title ? `"${title}"` : ""} </h2>
             
             <ul>
                 { 
