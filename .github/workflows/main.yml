@@ -14,7 +14,7 @@ jobs:
           unset CI 
           npm install
           npm run build
-      - env:
+        env:
           REACT_APP_OMDB_KEY: ${{ secret.REACT_APP_OMDB_KEY }}
 
       - name: Deploy 🚀
