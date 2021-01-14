@@ -12,6 +12,11 @@ A web in which allows users to seach OMDB movies
 - npm run start     //starts the server
 ```
 
+# Other requirements
+
+> - Add **.env** file under **shoppies** folder
+> - **REACT_APP_OMDB_KEY={OMDB_KEY}** // Put this on **.env** where is your \*\*omdb
+
 # Funcitonalities
 
 ```
